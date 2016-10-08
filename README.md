@@ -1,6 +1,7 @@
 # ADViewPager 本文重点介绍了自定义ViewPager，在以后的项目中进行快速开发，避免了写很多繁琐的代码，使得维护起来更便利。
-效果图:
-![image](https://github.com/GitPhoenix/ADViewPager/blob/master/screen/screen.gif)
+##效果图:
+![image](https://github.com/GitPhoenix/ADViewPager/blob/master/screen/screen.gif)<br>
+
 1.在布局文件中加入ADViewPager
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -8,8 +9,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.github.phoenix.activitiy.MainActivity">
+    android:layout_height="match_parent">
 
     <com.github.phoenix.widget.ADViewPager
         android:id="@+id/viewPager_main_ad"
