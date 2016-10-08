@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ADViewPager</string>
+<!--注意包名类名是否正确-->
+    <string name="fab_behavior_up_fade_in">com.github.phoenix.helper.behavior.ScaleUpShowBehavior</string>
+</resources>
